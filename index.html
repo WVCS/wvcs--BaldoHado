@@ -4,7 +4,6 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=">
    <title></title>
-   
    <style>
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
@@ -15,6 +14,7 @@ brownish - #433A3F */
 
 body {
   margin: 0;
+  background-color: #C6DBF0;
 }
 
 .container {
@@ -29,6 +29,7 @@ body {
   overflow: hidden;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 .navbar a {
@@ -48,20 +49,43 @@ body {
 .wrapper {
   height: 100vh;
   position: relative;
-
 }
 
 .title {
   position: relative;
   text-align: center;
   font-family: 'Sansita Swashed', cursive;
+  border-bottom: 2px black solid;
 }
 
-.images, .game {
-  display: flex;
-  justify-content: center;
+.images {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  background-color: #AED1E6;
+  positon: relative;
+} 
+
+.image1 {
+  top: 10vh;
 }
-   </style>
+
+.game {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  float: right;
+  background-color: #CFE8EF;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  float: left;
+  background-color: #CFE8EF;
+}
+  </style>
  </head>
  <body>
    <div class="container">
@@ -76,14 +100,15 @@ body {
        <h1>Adam Ta's Portfolio</h1>
      </div>
      <div class="images">
-       <img src = "artifact.png" alt="artifact" width = "300">
+       <div class = "image1"><img src = "artifact.png" alt="artifact" width = "300">
+       </div>
      </div>
-     <div class="blocker">
-    </div>
      <div class="game">
         <iframe src="https://scratch.mit.edu/projects/426213320/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
         </iframe>
      </div>
+     <div class="box"></div>
+     <div class="box2"></div>
    </div>
    </div>
  </body>
