@@ -1,51 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title></title>
-  
-  <style> 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=">
+   <title></title>
+   
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+/* colors :
+blueish - #4C86A8
+brownish - #433A3F */
+
 body {
   margin: 0;
-  margin-top: 0;
-  top: 0;
-  padding: 0;
-  background-color: purple;
+}
+
+.container {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #4C86A8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 7em;
+}
+
+.navbar a:hover {
+  background-color: #433A3F;
+  color: #DFE0E2;
+}
+
+.wrapper {
+  height: 100vh;
+  position: relative;
+
 }
 
 .title {
+  position: relative;
   text-align: center;
-  width: 100%;
-  color: red;
-  font-family: 'Syne', sans-serif;
-  text-decoration: underline;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .images, .game {
   display: flex;
   justify-content: center;
 }
-    
-.blocker {
-  height: 30px;
-}
-  </style>
-</head>
-<body>
-  <div class="title">
-    <h1>ADAM'S WEBSITE</h1>
-  </div>
-  <div class="images">
-    <img src = "artifact.png" alt="artifact" width = "300">
-  </div>
-  <div class="blocker">
-  </div>
-  <div class="game">
-    <iframe src="https://scratch.mit.edu/projects/426213320/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
-    </iframe>
-  </div>
-</body>
-</html>
-
-
+   </style>
+ </head>
+ <body>
+   <div class="container">
+   <div class="navbar">
+     <a href="#Home">HOME</a>
+     <a href="">ABOUT</a>
+     <a href="">CONTACT</a>
+     <a href="">JOIN</a>
+   </div>
+   <div class="wrapper">
+     <div class="title">
+       <h1>Adam Ta's Portfolio</h1>
+     </div>
+     <div class="images">
+       <img src = "artifact.png" alt="artifact" width = "300">
+     </div>
+     <div class="blocker">
+    </div>
+     <div class="game">
+        <iframe src="https://scratch.mit.edu/projects/426213320/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
+        </iframe>
+     </div>
+   </div>
+   </div>
+ </body>
+ </html>
