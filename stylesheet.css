@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+/* colors :
+blueish - #4C86A8
+brownish - #433A3F */
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to right,#00b4d8, #ade8f4)
+}
+
+.container {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #4C86A8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 7em;
+}
+
+.navbar a:hover {
+  background-color: #433A3F;
+  color: #DFE0E2;
+}
+
+.wrapper {
+  height: 1270px;
+  position: relative;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  border-bottom: 2px black solid;
+  height: 70px;
+}
+
+.images {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  background-color: #AED1E6;
+  positon: relative;
+  height: 500px;
+} 
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.game {
+  display: flex;
+  width: 50%;
+  float: right;
+  background-color: #CFE8EF;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  float: left;
+  background-color: #CFE8EF;
+  height: 700px;
+}
+
+.box2 {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  float: right;
+  background-color: #AED1E6;
+  height: 700px;
+}
+
+.text1 {
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+    line-height: 50px;
+    color: darkblue;
+}
