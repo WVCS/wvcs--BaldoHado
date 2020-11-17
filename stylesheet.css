@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 /* colors :
 blueish - #4C86A8
 brownish - #433A3F */
 
 body {
   margin: 0;
-  background-image: linear-gradient(to right,#00b4d8, #ade8f4)
+  background-image: linear-gradient(to right,#f80ed1e1,#ade8f4)
 }
 
 .container {
@@ -15,14 +15,13 @@ body {
 }
 
 .navbar {
-  background-color: #4C86A8;
+  background-color: linear-gradient(to right,#4508eb,#d40edb);
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  
 }
 
 .navbar a {
@@ -35,20 +34,28 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #433A3F;
-  color: #DFE0E2;
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(1.3);   
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 300ms ease-in;
+  transform: scale(1.3);
+  color: black;
 }
 
 .wrapper {
   height: 1270px;
   position: relative;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 .title {
   position: relative;
   text-align: center;
   font-family: 'Sansita Swashed', cursive;
-  border-bottom: 2px black solid;
   height: 70px;
 }
 
@@ -56,9 +63,9 @@ body {
   display: inline-block;
   width: 50%;
   text-align: center;
-  background-color: #AED1E6;
-  positon: relative;
-  height: 500px;
+  background-color:transparent;
+  position: relative;
+  height: 700px;
 } 
 
 .image1 {
@@ -72,7 +79,7 @@ body {
   display: flex;
   width: 50%;
   float: right;
-  background-color: #CFE8EF;
+  background-color: transparent;
   height: 500px;
   justify-content: center;
   align-items: center;
@@ -84,22 +91,25 @@ body {
   align-items: center;
   width: 50%;
   float: left;
-  background-color: #CFE8EF;
-  height: 700px;
+  background-color: transparent;
+  height: 500px;
 }
 
 .box2 {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
+  float: left;
+  background-color: transparent;
+  height: 500px;
+  margin-top: 0px;
   float: right;
-  background-color: #AED1E6;
-  height: 700px;
 }
 
 .text1 {
     text-align: left;
-    font-family: 'Arial';
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     margin-right: 300px;
     margin-left: 300px;
