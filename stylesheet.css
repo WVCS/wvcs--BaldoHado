@@ -58,6 +58,12 @@ body {
   font-family: 'Sansita Swashed', cursive;
   height: 70px;
 }
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
 
 .images {
   display: inline-block;
@@ -68,12 +74,18 @@ body {
   height: 700px;
 } 
 
-.image1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
+.image1:hover {
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(1.3);   
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 300ms ease-in;
+  transform: scale(1.3);
+  box-shadow: 2px black;
 }
+
 
 .game {
   display: flex;
@@ -84,6 +96,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.game:hover {
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(1.3);   
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 300ms ease-in;
+  transform: scale(1.3);
+  box-shadow: 2px black;
+}
 
 .box {
   display: flex;
@@ -93,6 +116,17 @@ body {
   float: left;
   background-color: transparent;
   height: 500px;
+}
+.box:hover {
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(1.3);   
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 300ms ease-in;
+  transform: scale(1.3);
+  box-shadow: 2px black;
 }
 
 .box2 {
@@ -105,6 +139,17 @@ body {
   height: 500px;
   margin-top: 0px;
   float: right;
+}
+.box2:hover {
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(1.3);   
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 300ms ease-in;
+  transform: scale(1.3);
+  box-shadow: 2px black;
 }
 
 .text1 {
